@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shri Ram Foundation - Donate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f7f7f7, #e2e2e2);
+      color: #333;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1587560699334-61c7e1e8dd7c') no-repeat center center/cover;
+      padding: 80px 20px;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: auto;
+    }
+    .content {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      margin-top: -50px;
+      position: relative;
+      z-index: 1;
+    }
+    .content h2 {
+      color: #bf1e2e;
+      margin-bottom: 20px;
+    }
+    .donate-btn {
+      display: inline-block;
+      background: #bf1e2e;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1em;
+      margin-top: 30px;
+    }
+    .donate-btn:hover {
+      background: #991824;
+    }
+    .upi-section {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #fff3f3;
+      border: 1px dashed #bf1e2e;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .upi-section p {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .folder-section {
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .folder-section p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>एक कहानी उन चेहरों की...</h1>
+    <p>जो उम्मीद से हमारी ओर देखते हैं — आइए, उनके जीवन में उजाला लाएं।</p>
+  </section>
+
+  <section class="content">
+    <h2>श्रीराम फाउंडेशन की शुरुआत</h2>
+    <p>
+      अक्सर हम अपनी ज़िंदगी की तेज़ रफ्तार में उन चेहरों को नज़रअंदाज़ कर देते हैं, जो सड़क किनारे बैठकर उम्मीद की निगाहों से हमारी तरफ देखते हैं।<br><br>
+      श्रीराम फाउंडेशन का सफर शुरू हुआ एक छोटे से गाँव में, जहाँ हमने देखा – <strong>एक बूढ़ी अम्मा</strong>, जिनकी आँखें सूनी थीं, जिनके पास ना कोई बेटा था, ना सहारा।<br><br>
+      फिर मिले <strong>रामू चाचा</strong>, जिनकी उम्र 75 साल है, और अब वो अपने लड़खड़ाते पैरों से काम करने में असमर्थ हैं।<br><br>
+      ऐसे ही न जाने कितने <strong>वृद्ध और बेसहारा लोग</strong>, जो आज भूख, बीमारी और अकेलेपन से जूझ रहे हैं।
+    </p>
+
+    <h2>आपका एक छोटा सा दान...</h2>
+    <p>
+      - एक वृद्ध को गरम खाना दे सकता है 🍲<br>
+      - एक बीमार बुज़ुर्ग को ज़रूरी दवाई दिला सकता है 💊<br>
+      - एक बेसहारा को ठंडी रात में कम्बल दे सकता है 🧣
+    </p>
+
+    <h2>आइए, इंसानियत का हाथ बढ़ाएं</h2>
+    <p>
+      आज ही दान करें और किसी की ज़िंदगी में उम्मीद की लौ जलाएं। आपका योगदान किसी के लिए जीवनदायिनी बन सकता है।
+    </p>
+
+    <div class="upi-section">
+      <h3>Donate via UPI</h3>
+      <p>UPI ID: <span style="color:#bf1e2e;">theup70helpmember@oksbi</span></p>
+      <p>Scan & Pay:</p>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=theup70helpmember@oksbi&pn=ShriRamFoundation" alt="Donate QR Code">
+    </div>
+
+    <a class="donate-btn" href="#donate">Donate Now</a>
+
+    
