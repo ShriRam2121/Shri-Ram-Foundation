@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shri Ram Foundation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🙏 श्री राम फाउंडेशन 🙏</h1>
+    <p>गरीब और वृद्ध लोगों की सहायता हेतु समर्पित</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>हमारा उद्देश्य</h2>
+      <p>हमारा लक्ष्य है समाज के वंचित वर्गों की सहायता करना — विशेष रूप से गरीब और वृद्ध लोगों की।</p>
+    </section>
+
+    <section class="donate-section">
+      <h2>UPI द्वारा दान करें</h2>
+      <img src="shri_ram_foundation_upi_qr.png" alt="UPI QR कोड" class="qr">
+      <p><strong>UPI ID:</strong> <code>theup70helpmember@oksbi</code></p>
+      <a href="upi://pay?pa=theup70helpmember@oksbi&pn=ShriRamFoundation" target="_blank">
+        <button>UPI ऐप से दान करें</button>
+      </a>
+    </section>
+
+    <section>
+      <h2>ऑनलाइन दान फॉर्म</h2>
+      <form id="donationForm">
+        <input type="text" name="name" placeholder="आपका नाम" required><br><br>
+        <input type="number" name="amount" placeholder="राशि ₹" required><br><br>
+        <textarea name="message" placeholder="संदेश (वैकल्पिक)"></textarea><br><br>
+        <button type="submit">फॉर्म सबमिट करें</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 श्री राम फाउंडेशन | सभी अधिकार सुरक्षित</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
